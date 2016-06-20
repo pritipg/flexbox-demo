@@ -35,6 +35,15 @@ a:hover {
     background: rgba(0, 0, 0, 0.3);
 }
 
+section, footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px 0;
+    color: white;
+    font-weight: 100;
+}
+
 .flex-nav ul {
     border: 1px solid black;
     list-style: none;
@@ -67,4 +76,6 @@ a:hover {
     .flex-nav li {
         flex-basis: 100%;
     }
+
+    
 }
