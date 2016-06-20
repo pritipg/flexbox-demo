@@ -52,6 +52,10 @@ section, footer {
     font-weight: 100;
 }
 
+.toggleNav {
+    display: none;
+}
+
 .flex-nav ul {
     border: 1px solid black;
     list-style: none;
@@ -98,7 +102,7 @@ section, footer {
         order: 1;
     }    
 
-    .toggle-nav {
+    .toggleNav {
         display: block;        
     }
 
