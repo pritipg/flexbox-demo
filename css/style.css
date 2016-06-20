@@ -35,6 +35,14 @@ a:hover {
     background: rgba(0, 0, 0, 0.3);
 }
 
+img {
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+}
+
 section, footer {
     text-align: center;
     background: rgba(0, 0, 0, 0.2);
@@ -100,5 +108,17 @@ section, footer {
 
     .flex-nav ul.open {
         display: flex;
+    }
+
+    .top {
+        order: 2;
+    }
+
+    .details {
+        order: 3;
+    }
+
+    .signup {
+        order: 4;
     }
 }
