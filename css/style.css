@@ -77,5 +77,28 @@ section, footer {
         flex-basis: 100%;
     }
 
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
     
+    .wrapper > * {
+        order: 99;
+    }
+    
+    .flex-nav {
+        order: 1;
+    }    
+
+    .toggle-nav {
+        display: block;        
+    }
+
+    .flex-nav ul {
+        display: none;
+    }
+
+    .flex-nav ul.open {
+        display: flex;
+    }
 }

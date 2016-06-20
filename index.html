@@ -13,6 +13,7 @@
         </header>
 
         <nav class="flex-nav">
+            <a href="#" class="toggleNav">Menu</a>
             <ul>
                 <li><a href="#">Item1</a></li>
                 <li><a href="#">Item2</a></li>               
@@ -50,5 +51,14 @@
             <p>footer</p>
         </footer>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('.toggleNav').on('click',function(){
+                $('.flex-nav ul').toggleClass('open');
+            });
+        });
+    </script>
 </body>
 </html>
